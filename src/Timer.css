@@ -1,0 +1,111 @@
+.app {
+  text-align: center;
+  background-image: url('https://www.teahub.io/photos/full/284-2841446_pixel-art-cyberpunk-gif.gif');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.time {
+  font-size: 2.8rem;
+  padding: 8px;
+  border-radius: 0px 20px 0px 20px;
+  background: #79768454;
+  margin-top: 120px;
+}
+
+.button {
+  padding: .6rem 1.5rem;
+  margin: .4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .8rem;
+  border-radius: 0px 8px 0px 8px;
+  margin-top: 22px;
+  background-color: #1d2f4d;
+  color: white;
+  border-color: #223453;
+}
+.button:hover {
+  padding: .6rem 1.5rem;
+  margin: .4rem;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .8rem;
+  border-radius: 0px 8px 0px 8px;
+  background-color: #4f546a;
+  margin-top: 22px;
+  border-color: #223453;
+}
+
+.button:focus {
+  outline-width: 0;
+  border-radius: 0px 8px 0px 8px;
+  margin-top: 22px;
+  border-color: #223453;
+}
+
+.button-primary:hover {
+  background-color: #0d2e42;
+  border: 1px solid #1b1f2b;
+  border-radius: 0px 6px 0px 6px;
+  display: flex;
+}
+
+.button-primary-active {
+  background-color: #3151ff;
+  border: 1px solid #152684;
+  color: white;
+  border-radius: 0px 6px 0px 6px;
+  display: flex;
+}
+
+.button-primary-inactive {
+  background-color: #092853;
+  border: 1px solid #0e3368;
+  color: white;
+  border-radius: 0px 6px 0px 6px;
+  display: flex;
+}
+
+.button-secondary {
+  background-color: #1d3344;
+  border: 1px solid #1e374b;
+  border-radius: 0px 6px 0px 6px;
+  color: rgb(140, 193, 236);
+}
+.button-secondary:hover {
+  background-color: #2a5169;
+  border: 1px solid #3a627a;
+  border-radius: 0px 6px 0px 6px;
+}
+
+.color1 {color: #1d2f4d;}
+.color2 {color: #4f546a;}
+.color3 {color: #797684;}
+.color4 {color: #9d9aa0;}
+.color5 {color: #bbc0ba;}
+
+.color1 {color: #233d61;}
+.color2 {color: #416881;}
+.color3 {color: #82a0a9;}
+.color4 {color: #cdd8d8;}
+.color5 {color: #ffffff;}
+
+.color1 {color: #000000;}
+.color2 {color: #0a141f;}
+.color3 {color: #13293c;}
+.color4 {color: #193f5b;}
+.color5 {color: #1b587e;}
+
+.color1 {color: #000714;}
+.color2 {color: #172b3a;}
+.color3 {color: #2a5169;}
+.color4 {color: #3b809f;}
+.color5 {color: #4bb7dc;}
